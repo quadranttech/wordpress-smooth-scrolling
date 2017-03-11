@@ -1,0 +1,44 @@
+/* WP Smooth Scroll by Quadrant Plugin */
+
+div.pageTop {
+    position: fixed;
+    right: 15px;
+    bottom: 55px;
+    background: #0072bc;
+    width: 60px;
+    height: 60px;
+    border-radius: 18px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 99;
+    opacity: 0;
+    -webkit-transition: all .17s ease-in-out;
+    -moz-transition: all .17s ease-in-out;
+    -o-transition: all .17s ease-in-out;
+    transition: all .17s ease-in-out;
+    line-height: 60px;
+}
+div.pageTop img{
+  display: inline-block;
+    vertical-align: middle;
+}
+
+div.pageTop:hover{
+    background: #cc5436;
+    -webkit-transition: all .17s ease-in-out;
+    -moz-transition: all .17s ease-in-out;
+    -o-transition: all .17s ease-in-out;
+    transition: all .17s ease-in-out;
+}
+
+
+.pageTop.cd-is-visible {
+    opacity: 1;
+    -webkit-transition: all .17s ease-in-out;
+    -moz-transition: all .17s ease-in-out;
+    -o-transition: all .17s ease-in-out;
+    transition: all .17s ease-in-out;
+}
